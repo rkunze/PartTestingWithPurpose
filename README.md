@@ -8,7 +8,7 @@ In addition, this contract pack tries to provide interesting game play together 
 
 ### Contract Types
 
-Contracts provided by this mod still follow the general schema of _"Test $SOME_PART in $SOME_SCENARIO"_, and the bulk of the contracts is still generated proceurally. But each scenario tells a plausible story, and the parts are chosen to fit the scenario. For example:
+Contracts provided by this mod still follow the general schema of _"Test $SOME_PART in $SOME_SCENARIO"_, and the bulk of the contracts is still generated procedurally. But each scenario tells a plausible story, and the parts are chosen to fit the scenario. For example:
 
 * _Test a new first stage based on the RE-M3 "Mainsail" Liquid Fuel Engine in flight_: The contract requires launching a new vessel that has a "Mainsail" engine and a tank that can feed the engine. To complete the contract, the "Mainsail" engine has to be started while still on the launch pad and must be active while the vessel is flying in atmosphere.
 * _Test a new probe based on the Probodobodyne QBE probe core_ in orbit: The contract requires to launch a vessel that has a "QBE" probe core, and may optionally have RCS, reaction wheel, and antenna parts (including the optional parts gives a bonus reward). Contract completes when the vessel reaches a stable orbit.
