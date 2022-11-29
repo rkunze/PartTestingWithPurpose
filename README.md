@@ -6,7 +6,7 @@ In addition, this contract pack tries to provide interesting game play together 
 
 ## Gameplay Overview
 
-## Contract Types
+### Contract Types
 
 Contracts provided by this mod still follow the general schema of _"Test $SOME_PART in $SOME_SCENARIO"_, and the bulk of the contracts is still generated proceurally. But each scenario tells a plausible story, and the parts are chosen to fit the scenario. For example:
 
@@ -17,7 +17,7 @@ Contracts provided by this mod still follow the general schema of _"Test $SOME_P
 Some contracts may provide special scenarios to support testing special parts, for example:
 * _Test the atmospheric launch abort procedure for the Mk1-3 Command Pod_: The contract requires a vessel with the Mk1-3 command pod and the Launch Escape System. To complete the contract, the LES must be activated in flight in the atmosphere, and the command pod must be recovered.
 
-## Contract Rewards
+### Contract Rewards
 
 Part testing contract rewards are moderate (this is part testing, after all, not exciting new science):
 * Basic funds rewards are just a bit more than the cost of the tested part. Part costs are payed out in advance, anything over the pure part costs is payed on successful completion.
@@ -31,7 +31,7 @@ Occasionally, contracts which have a bonus goal are offered with prestige level 
 
 No part testing contracts with prestige level "Exceptional" are offered. This _is_ part testing, after all.
 
-### Modified Reward System With TestFlight
+#### Modified Reward System With TestFlight
 
 When TestFlight is installed, the _real_ reward for taking part test contracts shifts to its natural target: Making parts more reliable.
 
@@ -42,13 +42,13 @@ So, with TestFlight installed, test contracts will pay out additional data units
 * That factor increases when the bonus goal is met
 * The factor increases again when the contract has "Significant" prestige
 
-## Penalties for failure
+### Penalties for failure
 
 Typically, part test contracts do not fail when the contract parameters are not met, meaning they can be repeated until success. Test contracts may expire (or can be declined) without any penalty besides having to repay the advance funds.
 
 The exception to this is killing crew members while testing. After all, an important purpose of testing parts is to _avoid_ killing crew. Therefore, killing crew members while testing immediately fails the contract, and _does_ carry a substantial penalty (mainly in reputation). 
 
-## Part selection
+### Part selection
 
 Part selection generally considers only parts that have already been researched. Ocasionally, experimental parts from a node that is about to be researched may be offered, but this is rare.
 
@@ -58,7 +58,7 @@ Part selection generally favors testing "new" parts:
 * Parts that are not on any vessel
 * ...
 
-### Modified Part Selection With TestFlight
+#### Modified Part Selection With TestFlight
 
 With TestFlight installed, part selection is biased a bit differently:
 * Unreliable parts _in active use on a mission that is not covered by an active part testing contract_ are much more likely to be selected for testing than any other part (you _really_ should have tested those parts before flying them on a mission, after all).
